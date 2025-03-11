@@ -1,6 +1,6 @@
 .cabeca{
     background-color: rgb(187, 194, 201);
-    padding: 10px;
+    padding: 7px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .amarelo{
@@ -10,12 +10,25 @@
   #fbff00 10px,
   #ffee00 10px,
   #eecc0a 20px);
-padding: 5px;
+padding: 10px;
 }
 .esquerda{
-  padding: 60px;
+  padding: 250px;
+  background-color: rgb(209, 207, 203);
+  border: solid;
+  
 }
 
 .flex{
   display: flex;
+}
+
+.meio{
+  background-color: rgb(187, 194, 201);
+  padding-right: 1400px ;
+  border: solid;
+}
+.save{
+  background-color: rgb(187, 194, 201);
+  padding: 15px;
 }
