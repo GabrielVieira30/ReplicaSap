@@ -2,6 +2,7 @@
     background-color: rgb(187, 194, 201);
     padding: 7px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid;
 }
 .amarelo{
     background: repeating-linear-gradient(
@@ -11,11 +12,13 @@
   #ffee00 10px,
   #eecc0a 20px);
 padding: 10px;
+border: solid;
 }
 .esquerda{
   padding: 250px;
   background-color: rgb(209, 207, 203);
   border: solid;
+  
   
 }
 
@@ -31,4 +34,21 @@ padding: 10px;
 .save{
   background-color: rgb(187, 194, 201);
   padding: 15px;
+  border: solid;
 }
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+
