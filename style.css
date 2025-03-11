@@ -1,0 +1,21 @@
+.cabeca{
+    background-color: rgb(187, 194, 201);
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.amarelo{
+    background: repeating-linear-gradient(
+  45deg,
+  #fffb00,
+  #fbff00 10px,
+  #ffee00 10px,
+  #eecc0a 20px);
+padding: 5px;
+}
+.esquerda{
+  padding: 60px;
+}
+
+.flex{
+  display: flex;
+}
